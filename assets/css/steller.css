@@ -11452,8 +11452,8 @@ pre {
 }
 
 .header {
-  height: 70vh;
-  min-height: 400px;
+  height: 100vh;
+  min-height: 600px;
   border-bottom: 1px solid #dee2e6;
 }
 
@@ -11602,8 +11602,8 @@ pre {
 }
 
 .header-mini {
-  height: 30vh;
-  min-height: 200px;
+  height: 40vh;
+  min-height: 400px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
