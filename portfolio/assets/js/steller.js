@@ -33,7 +33,7 @@ $(document).ready(function(){
 
 function openPDF() {
 	// URL of PDF file
-	var pdfURL = 'assets/Leah-Goldberg-Resume.pdf';
+	var pdfURL = 'portfolio/assets/Leah-Goldberg-Resume.pdf';
 
 	// Open the PDF file in a new tab
 	window.open(pdfURL, '_blank');
