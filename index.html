@@ -29,6 +29,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>             
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
@@ -50,8 +53,8 @@
         <div class="container">
             <div class="infos">
                 <h6 class="subtitle">Hello, welcome to my corner of the web!</h6>
-                <h6 class="title">Leah Goldberg</h6>
-                <p>B.S. Computer Science & Japanese Language</p>
+                <h6 class="title">Leah Tian Goldberg</h6>
+                <p>Software Engineer</p>
 
                 <div class="buttons pt-3">
                     <button class="btn btn-primary rounded" onclick="openPDF()">DOWNLOAD RESUME</button>
@@ -78,18 +81,20 @@
                 </div>
                 <div class="pl-md-4 col-md-9">
                     <h6 class="title">About Me</h6>
-                    <p> Hello! My name is Leah Goldberg. I graduated from Dickinson College 
-                        in May 2023 with a B.S. in Computer Science and Japanese. I found my 
-                        love for programming through an introductory computer science course
-                        in my sophmore year of college. Ever since, I have enjoyed the learning
-                        many technical skills and the creative and logical process of programming.
+                    <p> Hello! My name is Leah.  I graduated from Dickinson College 
+                        in May 2023 with a B.S. in Computer Science and Japanese.  Currently, 
+                        I am a software engineer at FUTU-RE 
+                        Co., Ltd., a startup based in Nagoya, Japan. Over the past year, I have 
+                        taken the lead in developing the user interface for an autonomous delivery 
+                        vehicle platform. This application is built using React, Next.js, 
+                        Tailwind CSS, and TypeScript.
                     </p>
                     <p>When I was young, I studied several foreign languages including Chinese, 
                         Spanish, and German. I have always loved learning about other cultures
                         and diversifying my understanding of this world. In college, I started 
                         studying Japanese. After I graduated, I attended an intensive Japanese language program
                         at Nanzan University for 4 months while living with a wonderful host family
-                        in Nagoya.
+                        in Nagoya. Luckily, I was to come back to Nagoya and continue to study Japanese through my current job.
                     </p>     
                 </div>
                 
@@ -103,7 +108,7 @@
     <section class="section">
         <div class="container text-center">
             <h6 class="section-title mb-4">My Tech Stack</h6>
-            <p class="mb-5 pb-4">During my computer science career, I've developed my technical skills through classes and projects.</p>
+            <p class="mb-5 pb-4">During my computer science career, I've developed my technical skills through classes, personal projects, and work.</p>
 
             <div class="text-center">
                     <a href="https://www.python.org/" target="_blank">
@@ -118,13 +123,97 @@
                     <a href="https://www.javascript.com/" target="_blank">
                         <img src="portfolio/assets/imgs/tech-stack/javascript.svg" alt="" style="width:96px;height:96px;">
                     </a>
+                    <a href="https://www.typescriptlang.org/" target="_blank">
+                        <img src="portfolio/assets/imgs/tech-stack/typescript.svg" alt="" style="width:96px;height:96px;">  
+                    </a>
                     <a href="https://www.mysql.com/downloads/" target="_blank">
                         <img src="portfolio/assets/imgs/tech-stack/mysql.svg" alt="" style="width:96px;height:96px;">  
-                    </a>                         
+                    </a>       
+                    <a href="https://react.dev/" target="_blank">
+                        <img src="portfolio/assets/imgs/tech-stack/react.svg" alt="" style="width:96px;height:96px;">  
+                    </a>  
+                    <a href="https://nextjs.org/" target="_blank">
+                        <img src="portfolio/assets/imgs/tech-stack/nextjs.svg" alt="" style="width:96px;height:96px;">  
+                    </a>   
+                    <a href="https://tailwindcss.com/" target="_blank">
+                        <img src="portfolio/assets/imgs/tech-stack/tailwind.svg" alt="" style="width:96px;height:96px;">  
+                    </a>                          
             </div>
         </div>
     </section>
     <!-- End of Skills sections -->
+
+    <hr>
+
+<!-- portfolio section -->
+<section id="portfolio" class="section">
+    <style>
+        .project-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .project-title {
+            color: orange;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            transition: text-decoration 0.2s ease;
+        }
+
+        .project-link:hover .project-title {
+            text-decoration: underline;
+        }
+
+        .project-image {
+            width: 100%;
+            width: 300px;
+            height: 250px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+    </style>
+
+    <div class="container text-center">
+        <h6 class="section-title mb-4">Portfolio</h6>
+        <p class="mb-5 pb-4">Check out some of my personal projects, click on the project title or image to view the full site.</p>
+
+        <div class="row justify-content-center">
+            <!-- Project 1 -->
+            <div class="col-md-6 col-lg-4 mb-4 text-center">
+                <a href="https://calico-lemons.onrender.com/" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <h5 class="project-title">Calico Lemons</h5>
+                    <img src="portfolio/assets/imgs/site-previews/calico.png" alt="Calico Lemons Preview" class="project-image">
+                    <p>Personal blog for writing about life's adventures.</p>
+                </a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-6 col-lg-4 mb-4 text-center">
+                <a href="https://phansite-dashboard.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <h5 class="project-title">Phansite Dashboard</h5>
+                    <img src="portfolio/assets/imgs/site-previews/phansite.png" alt="Phansite Dashboard Preview" class="project-image">
+                    <p>Interactive dashboard inspired by the Persona series. Please email me for authentication details.</p>
+                </a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-md-6 col-lg-4 mb-4 text-center">
+                <a href="https://game-hub-eta-plum.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <h5 class="project-title">Game Database</h5>
+                    <img src="portfolio/assets/imgs/site-previews/gamehub.png" alt="Game Hub Preview" class="project-image">
+                    <p>A searchable database of video games using RAWG API.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of portfolio section -->
+
+
+
+
+
 
     <hr>
 
