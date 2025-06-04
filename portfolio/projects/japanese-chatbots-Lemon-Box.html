@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="Start your development with Steller landing page.">
+   <meta name="author" content="Devcrud">
+   <title>Leah | Japanese Chatbots</title>
+   <!-- font icons -->
+   <link rel="stylesheet" href="../assets/vendors/themify-icons/css/themify-icons.css">
+   <!-- Bootstrap + Steller  -->
+   <link rel="stylesheet" href="../assets/css/steller.css">
+   <link rel="icon" href="../assets/imgs/logo2icon.png">
+</head>
+<body>
+
+   <!-- Page navigation -->
+   <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+      <div class="container">
+          <a class="navbar-brand" href="#"><img src="../assets/imgs/logo2.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto align-items-center">
+               <li class="nav-item">
+                   <a href="../../index.html" style="color: #6c757d; padding: 2dvh; font-weight: 700; font-size: 90%;">Home</a>
+               </li>
+               <li class="nav-item">
+                   <a href="../../index.html#about" style="color: #6c757d; padding: 2dvh; font-weight: 700; font-size: 90%;">About</a>
+               </li>             
+               <li class="nav-item">
+                   <a href="../../index.html#projects" style="color: #6c757d; padding: 2dvh; font-weight: 700; font-size: 90%;">Projects</a>
+               </li>
+               <li class="nav-item">
+                   <a href="../../index.html#blog" style="color: #6c757d; padding: 2dvh; font-weight: 700; font-size: 90%;">Blog</a>
+               </li>
+               <li class="nav-item">
+                   <a href="../../index.html#contact" style="color: #6c757d; padding: 2dvh; font-weight: 700; font-size: 90%;">Contact</a>
+               </li>
+           </ul>
+          </div>
+      </div>          
+  </nav>
+  <!-- End of page navibation -->
+
+   <!-- Page Header -->
+   <header class="header header-mini"> 
+      <nav aria-label="breadcrumb">
+         <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Japanese Chatbots</li>
+         </ol>
+      </nav>
+      <div class="header-title">Japanese Chatbots</div> 
+      <h6>Leah Goldberg | September 2022 - May 2023</h6>
+   </header> <!-- End Of Page Header -->
+
+   <!-- main content -->
+   <div class="container">
+      <h3 class="mt-5">Skills</h3>
+      <hr>
+      <p>Machine learning, teamwork, problem solving, creativity, Python, feedback implementation, chatbots</p>
+      <h3 class="mt-5">Project Overview</h3>
+      <hr>
+      <p>In this project, I used an open source software called <a href="https://rasa.com/">RASA</a> 
+        to develop machine learning powered chatbots for Japanese language 
+        learners. RASA is a framework that allows developers to create customizable
+        AI powered chatbots. The Japanese chatbots that I created simulate basic 
+        conversations with the users such as a self introduction, a visit to the 
+        doctor’s office, or talking with a friend. The bot prompted users to use 
+        relevant vocabulary and grammar patterns for the targeted learning material. 
+        These Japanese materials are loosely based off of the 
+        <a href="https://usa.kinokuniya.com/learning-japanese/genki" target="_blank">GENKI</a> 
+        textbooks, a series designed for beginner Japanese learners. </p>
+     <h3 class="mt-5">The Chatbots</h3>
+     <hr>
+        <h5>How they work</h5>
+        <p>The chatbots are configured with YAML files. YAML files are similar to JSON files 
+            in how they store data in key-value pairs. Essentially, these key values pairs 
+            would store sample data for the chatbots. For example, in these chatbots, 
+            a key would be “greetings” and the values would be something like 
+            “こんにちは/konnichiwa” (hello), “おはよう/ohayou” 
+            (good morning), and “こんばんは/konnbanwa” (good evening). The chatbots would use 
+            this sample data, data inputted from users, and machine learning models to learn 
+            how to follow the flow of conversations. One of the models used was a Japanese
+            language model called <a href="https://spacy.io/models/ja#ja_core_news_lg" target="_blank">Spacy</a>.</p>
+            <div class="container" style="text-align: center;">
+                <figure>
+                   <img src="../assets/imgs/folio-1.1.png" alt="" class="img-thumbnail" style="height: 50%; width: 50%;">
+                   <figcaption><i>Spacy Model Screenshot | <a href="https://spacy.io/models/ja#ja_core_news_lg" target="_blank">spaCy</a></i></figcaption>
+                </figure>
+             </div>
+            <p>The RASA software also allowed for custom bot commands to be written in Python. 
+            Some of the custom commands I wrote included recording a log of the user’s 
+            conversation and sending that log to a specified email address.</p>
+        <br>
+        <h5>Problem Solving & Innovation</h5>
+             <p>We ran into a lot of bugs with the RASA software which made the 
+                development of chatbots challenging. Additionally, the nature of the Japanese
+                language itself made developing beginner level chatbots difficult to make.
+                Japanese uses three writing systems: (1) hiragana/ひらがな, (2) katakana/カタカナ, and (3) kanji/漢字. Both hiragana
+                and katakana are phonetic. Kanji are pictographic characters derived from Chinese.
+                There are thousands of kanji, and most beginners do not know a lot. 
+                The Japanese language model we were using was trained on Japanese
+                newspapers which use a lot of kanji. The problem with this was that 
+                we did not want the bots to use a lot of kanji because they were aimed towards
+                beginners. However, Japanese has a lot of homophones, and kanji is used to distinguish 
+                between them. For example, both 洗濯 and 選択 are pronouced "せんたく/sentaku,"
+                but the former means "laundry" and the latter means "choice." Thus, this means
+                when we wrote words in hiragana, the bot would sometimes misinterpreted which word we intended.
+                <br><br>
+                In general, when approaching a problem, 
+                I would discuss with my supervisor 
+                what the issues were and we would go back and forth proposing ideas to fix 
+                the bugs. Most of these issues were fixed by retraining the bot models or by 
+                writing a custom Python command for the bot.</p>
+                <div class="container" style="text-align: center;">
+                    <figure>
+                       <img src="../assets/imgs/folio-1.2.png" alt="" class="img-thumbnail" style="height: 90%; width: 90%;">
+                       <figcaption><i>Screenshot of running the RASA bot in the shell</i></figcaption>
+                    </figure>
+                 </div>
+        <br>
+        <h5>Adaptability & Learning</h5>
+            <p>I learned the RASA software from scratch, which also gave me 
+                more insight into machine learning. When we ran into bugs, 
+                I was able to efficiently devise a plan to fix them. I also 
+                effectivly adapted the bot to any feedback given 
+                by my supervisor. The Japanese professor from Dickinson 
+                would also give me constant feedback on how to improve the natural 
+                flow of the bots, which I was successfully able to implement.
+                Additionally, I mentored a younger student who took over this position when
+                I graduated.</p>
+        <br>
+        <h5>Chatbot Source Code GitHub Links</h5>
+        <table class="table table-striped">
+            <thead>
+               <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Topic/Link</th>
+                  <th scope="col">Conversation Simulated</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th scope="row">1</th>
+                  <td><a href="https://github.com/goldberl/rasa-japanese-bot-1" target="_blank">Self Introduction</a></td>
+                  <td>Asks user basic questions regarding their name, age, hometown, etc. </td>
+               </tr>
+               <tr>
+                  <th scope="row">2</th>
+                  <td><a href="https://github.com/goldberl/rasa-japanese-bot-2" target="_blank">Keigo (honorific language)</a></td>
+                  <td>Simulates having a conversation with a stranger on a plane using keigo. </td>
+               </tr>
+               <tr>
+                  <th scope="row">3</th>
+                  <td><a href="https://github.com/goldberl/rasa-japanese-bot-5" target="_blank">Doctor's visit</a></td>
+                  <td>Asks user basic questions about their symptoms and diagnoses a condition. </td>
+               </tr>
+            </tbody>
+         </table>
+    <h3 class="mt-5">Overall Thoughts</h3>
+     <hr>
+     <p>
+        I believe that I was able to meet my objective to create chatbots for Japanese language learners. The chatbots I built effectively use certain grammar patterns and vocabulary words that follow the Genki textbook curriculum to help users practice their Japanese. Through the development of these bot, I also have a better understanding of how the Rasa framework works to create AI powered chatbots and how to effectively communicate with my supervisor about the issues I run into.
+    <br><br>
+        This internship gave me some insight into what it would be like to do work that involves both my Japanese and computer science majors. Because I enjoyed this working with both my majors, I would aim to use these skills in my future career as well. This may or may not include the development of chatbots, but I think I would enjoy the job either way. 
+    </p>
+     <br>
+   </div>
+   <!-- end of content -->
+
+    <!-- Page Footer -->
+    <footer class="page-footer">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-sm-6">
+                  <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="https://goldberl.github.io/">goldberl</a></p>
+              </div>
+              <div class="col-sm-6 row text-center text-md-left row align-items-center">
+                  <div class="socials">
+                      <a class="social-item" href="https://github.com/goldberl" target="_blank"><i class="ti-github"></i></a>
+                  <a class="social-item" href="https://www.linkedin.com/in/goldberl/" target="_blank"><i class="ti-linkedin"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer> 
+  <!-- End of page footer -->
+   
+   <!-- core  -->
+    <script src="../assets/vendors/jquery/jquery-3.4.1.js"></script>
+   <script src="../assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- steller js -->
+    <scrip
