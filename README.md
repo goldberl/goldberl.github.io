@@ -34,9 +34,9 @@ Welcome to my personal portfolio website! I'm a software engineer based in Nagoy
 
 ## ✍️ Blog Highlights
 
-- [CS at Dickinson](portfolio/portfolio-blogs/blog-dickinson.html)
-- [Open Source Identity](portfolio/portfolio-blogs/blog-oss.html)
-- [GitHub Copilot & Licensing](portfolio/portfolio-blogs/blog-copilot.html)
+- [CS at Dickinson](https://goldberl.github.io/portfolio/portfolio-blogs/blog-dickinson.html)
+- [Open Source Identity](https://goldberl.github.io/portfolio/portfolio-blogs/blog-oss.html)
+- [GitHub Copilot & Licensing](https://goldberl.github.io/portfolio/portfolio-blogs/blog-copilot.html)
 
 ---
 
