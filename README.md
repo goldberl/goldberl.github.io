@@ -1,40 +1,50 @@
-# Leah's Web Portfolio
+# 🌐 Leah's Web Portfolio
 
-### Steller Free Bootstrap landing page for personal and commercial use. Designed with ♥️ and creativity by Devcrud.com 
+Welcome to my personal portfolio website! I'm a software engineer based in Nagoya, Japan, with a passion for building user-friendly web applications and exploring cross-cultural experiences.
 
-Product Page: https://wwww.devcrud.com/
+🔗 **Live Site**: [goldberl.github.io](https://goldberl.github.io/)
 
-Credits:
+---
 
-    Demo Images:
-        Unsplash:       (https://www.unsplash.com)
+## 👩‍💻 About Me
 
-    Icons:
-		Themify Icons (https://themify.me/themify-icons)
+- 🎓 B.S. in Computer Science & Japanese – Dickinson College
+- 💼 Frontend Engineer at FUTU-RE Co., Ltd.
+- 🧠 Interests: UI/UX, language learning, AI, and open-source contributions
 
-	Other:
-		jQuery (https://www.jquery.com)
-		Bootstrap (https://www.getbootstrap.com)
-		Bootstrap Affix (http://getbootstrap.com/javascript/#affix) 
+---
 
-### MIT License
+## 💻 Tech Stack
 
-Copyright (c) 2019 Devcrud
+- **Languages**: Python, Java, JavaScript, TypeScript
+- **Frameworks**: React, Next.js, Tailwind CSS
+- **Tools**: Prisma, MySQL, Cohere AI, Godot
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 🚀 Featured Projects
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+| Project | Description | Stack |
+|--------|-------------|--------|
+| [Onigiri Productions](https://onigiri-productions.vercel.app/) | Custom card shop with live design previews | Next.js, React, Tailwind |
+| [Zen Interview Prep](https://zeninterviewprep.vercel.app/) | AI-powered interview practice tool | Next.js, Cohere AI |
+| [Copycat Crisis](https://iridescent-noodle.itch.io/copycat-crisis) | Puzzle game built in Godot | Godot, GDScript |
+
+---
+
+## ✍️ Blog Highlights
+
+- [CS at Dickinson](portfolio/portfolio-blogs/blog-dickinson.html)
+- [Open Source Identity](portfolio/portfolio-blogs/blog-oss.html)
+- [GitHub Copilot & Licensing](portfolio/portfolio-blogs/blog-copilot.html)
+
+---
+
+## 📬 Contact
+
+- 📧 leahtiangoldberg@gmail.com  
+- [GitHub](https://github.com/goldberl) · [LinkedIn](https://www.linkedin.com/in/goldberl/)
+
+---
+
+Thanks for visiting!
