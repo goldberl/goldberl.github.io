@@ -9,7 +9,7 @@ Welcome to my personal portfolio website! I'm a software engineer based in Nagoy
 ## 👩‍💻 About Me
 
 - 🎓 B.S. in Computer Science & Japanese – Dickinson College
-- 💼 Frontend Engineer at FUTU-RE Co., Ltd.
+- 💼 Sustaining Engineer at Canonical
 - 🧠 Interests: UI/UX, language learning, AI, and open-source contributions
 
 ---
